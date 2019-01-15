@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
  
-const char* ssid = "ac";//type your ssid
-const char* password = "docentt2";//type your password
+const char* ssid = "IDEAROOMIA";//type your ssid
+const char* password = "idearoomia2018";//type your password
 
 #define LED D0            // Led in NodeMCU at pin GPIO16 (D0).
 
@@ -29,10 +29,10 @@ delay(5000);
  comment out the following four lines.  
  */
  
-IPAddress ip(192,168,0,254);   
+/*IPAddress ip(192,168,0,254);   
 IPAddress gateway(192,168,0,1);   
 IPAddress subnet(255,255,255,0);   
-WiFi.config(ip, gateway, subnet);
+WiFi.config(ip, gateway, subnet);*/
 delay(5000);
  
 while (WiFi.status() != WL_CONNECTED) 
